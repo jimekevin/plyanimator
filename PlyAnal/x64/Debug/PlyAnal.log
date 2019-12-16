@@ -1,0 +1,12 @@
+﻿  Rendering.cpp
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\Rendering.cpp(75,29): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\Rendering.cpp(75,26): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+  PlyAnal.vcxproj -> C:\Users\Kevin Bein\source\repos\PlyAnimator\x64\Debug\PlyAnal.exe

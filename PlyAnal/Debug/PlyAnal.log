@@ -1,0 +1,68 @@
+﻿  PlyAnal.cpp
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\PlyAnal.cpp(27,26): warning C4244: 'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+  Rendering.cpp
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\Rendering.cpp(75,29): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\Rendering.cpp(75,26): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+  tinyply.cpp
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\tinyply.h(677,46): warning C4244: 'argument': conversion from 'const int64_t' to 'const unsigned int', possible loss of data
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\tinyply.h(702,62): warning C4244: 'argument': conversion from 'const int64_t' to 'const unsigned int', possible loss of data
+C:\Users\Kevin Bein\source\repos\PlyAnimator\PlyAnal\tinyply.h(747,34): warning C4244: 'argument': conversion from 'const int64_t' to 'const unsigned int', possible loss of data
+  Generating Code...
+PlyAnal.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+PlyAnal.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+PlyAnal.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "public: void __thiscall <lambda_7fd078d4794f7d6392892465e437ac74>::operator()(struct GLFWwindow *)const " (??R<lambda_7fd078d4794f7d6392892465e437ac74>@@QBEXPAUGLFWwindow@@@Z)
+Rendering.obj : error LNK2001: unresolved external symbol _glfwGetKey
+PlyAnal.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+PlyAnal.obj : error LNK2001: unresolved external symbol _glad_glPolygonMode
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glPolygonMode
+Rendering.obj : error LNK2019: unresolved external symbol _gladLoadGL referenced in function "public: __thiscall rendering::Rendering::Rendering(void)" (??0Rendering@rendering@@QAE@XZ)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: __thiscall rendering::Rendering::Rendering(void)" (??0Rendering@rendering@@QAE@XZ)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall rendering::Rendering::~Rendering(void)" (??1Rendering@rendering@@QAE@XZ)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function "public: __thiscall rendering::Rendering::Rendering(void)" (??0Rendering@rendering@@QAE@XZ)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "public: static void __cdecl rendering::ViewerInput::keyCallback(struct GLFWwindow *,int,int,int,int)" (?keyCallback@ViewerInput@rendering@@SAXPAUGLFWwindow@@HHHH@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: struct GLFWwindow * __thiscall rendering::Rendering::createWindow(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createWindow@Rendering@rendering@@QAEPAUGLFWwindow@@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glClear
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glClearColor
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetIntegerv
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetString
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glDrawElements
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glBindBuffer
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glDeleteBuffers
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGenBuffers
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glBufferData
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glAttachShader
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glCompileShader
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glCreateProgram
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glCreateShader
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glDeleteShader
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glEnableVertexAttribArray
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetProgramiv
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetProgramInfoLog
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetShaderiv
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGetShaderInfoLog
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glLinkProgram
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glShaderSource
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glUseProgram
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glVertexAttribPointer
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glBindVertexArray
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glDeleteVertexArrays
+Rendering.obj : error LNK2001: unresolved external symbol _glad_glGenVertexArrays
+C:\dev\glfw-3.3\build\src\Debug\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\dev\glew-2.1.0\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\dev\opencv-3.0\build\install\x64\vc16\lib\opencv_core412d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Kevin Bein\source\repos\PlyAnimator\Debug\PlyAnal.exe : fatal error LNK1120: 44 unresolved externals
